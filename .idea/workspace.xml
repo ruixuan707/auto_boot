@@ -2,20 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179973cb-9b9b-46f0-97c0-052e2a8e9ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/InstitutionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PopedomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/EmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/InstitutionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PopedomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PositionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PositionTemplatePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/base/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/mapping/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/bean/ApiResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ResultMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ReturnCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/PropertyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/TreeToolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/UpdateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/InstitutionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PopedomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionTemplateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/base/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Institution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Popedom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/PositionTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/InstitutionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PopedomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/base/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/listener/EntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/manager/EmployeeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mapper/authority/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/EmployeeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/InstitutionQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/PositionQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/PositionTemplateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/base/OrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/InstitutionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PopedomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/base/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,30 +78,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/pom.xml">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mapper/authority/EmployeeMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/pom.xml">
+        <entry file="file://$PROJECT_DIR$/api/src/main/resources/mapping/EmployeeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="3528">
+              <caret line="236" column="94" selection-start-line="236" selection-start-column="94" selection-end-line="236" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -61,41 +100,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="206">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="111">
+              <caret line="432" column="24" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,9 +135,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>e</find>
+      <find>fmgt</find>
+      <find>com.monco.core.entity.Employee</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>base</replace>
+      <replace>com.atc.auto.core.entity.authority.Employee</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,20 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/manager/EmployeeManager.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/bean/ApiResult.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/PositionQuery.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/InstitutionQuery.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/EmployeeQuery.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/InstitutionService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PopedomService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/PropertyUtil.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/InstitutionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/PositionTemplateQuery.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionTemplateService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PopedomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/base/PageResult.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/PositionTemplatePage.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/PositionPage.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/InstitutionPage.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/EmployeePage.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/EmployeePage.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/TreeToolUtils.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PopedomController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/base/OrderQuery.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/UpdateUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ReturnCodeEnum.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ResultMessageBuilder.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/InstitutionController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionTemplateController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PopedomDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Employee.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Popedom.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/PositionTemplate.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Position.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Institution.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/InstitutionDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionTemplateDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mapper/authority/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mybatis/service/MyBatisEmployee.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/entity/user/User.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/listener/EntityListener.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/user/User.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/entity/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/entity/User.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/Role.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/User.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/api/src/main/resources/mapping/EmployeeMapper.xml" />
       </list>
     </option>
   </component>
@@ -148,10 +224,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-104" />
-    <option name="y" value="46" />
-    <option name="width" value="844" />
-    <option name="height" value="688" />
+    <option name="x" value="569" />
+    <option name="y" value="11" />
+    <option name="width" value="1300" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,11 +285,41 @@
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.atc.auto" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.atc.auto" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="authority" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto_boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_boot" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,22 +351,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto_boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +367,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551753980865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551778957278" />
     <property name="last_opened_file_path" value="E:/monco_git/boot_monco" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -279,17 +375,22 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\monco_git_code\auto_boot\api\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atc.auto.core.entity.base" />
-      <recent name="com.atc.auto.entity.base" />
-      <recent name="com.atc.auto.config" />
-      <recent name="com.atc.auto.core.listener" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\monco_git_code\auto_boot\api\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atc.auto.common.util" />
+      <recent name="com.atc.auto.core.pojo.base" />
+      <recent name="com.atc.auto.core.impl.authority" />
+      <recent name="com.atc.auto.core.pojo.authority" />
+      <recent name="com.atc.auto.core.service.authority" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\monco_git_code\auto_boot\core\src\main\java\com\atc\auto\core\mapper\authority" />
+      <recent name="E:\monco_git_code\auto_boot\api\src\main\resources\mapping" />
+      <recent name="E:\monco_git_code\auto_boot\common\src\main\java\com\atc\auto\common" />
+      <recent name="E:\monco_git_code\auto_boot\common\src\main\java\com\atc\auto\common\util" />
+      <recent name="E:\monco_git_code\auto_boot\api\src\main\java\com.atc.auto\page\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,17 +436,27 @@
       <option name="presentableId" value="Default" />
       <updated>1551720160924</updated>
       <workItem from="1551720164721" duration="1075000" />
-      <workItem from="1551721299009" duration="2522000" />
+      <workItem from="1551721299009" duration="3887000" />
+      <workItem from="1551768224127" duration="8765000" />
     </task>
+    <task id="LOCAL-00001" summary="系统初始化搭建">
+      <created>1551754020417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551754020417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3597000" />
+    <option name="totallyTimeSpent" value="13727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -353,11 +464,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49924356" weight="0.2831424" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.34369886" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34369886" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.48608837" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,6 +478,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49924356" weight="0.2831424" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,44 +494,321 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="系统初始化搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="系统初始化搭建" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/EmployeeQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="-88">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/InstitutionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-921">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PopedomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/PropertyUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/authority/PositionTemplateQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/PositionTemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/InstitutionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PopedomServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1771">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5876#5885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="50" column="67" lean-forward="true" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/PositionTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/base/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/InstitutionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PopedomPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PositionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/PositionTemplatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/page/authority/EmployeePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/ReflectUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/TreeToolUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/pojo/base/OrderQuery.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/UpdateUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/util/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ReturnCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/atc/auto/common/response/ResultMessageBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/InstitutionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PopedomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/PositionTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/service/authority/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/impl/authority/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1527">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/base/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/PositionTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataConfig.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Popedom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Institution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/InstitutionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PopedomDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -428,84 +816,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="172">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/listener/EntityListener.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/dao/authority/PositionTemplateDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="3" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="180">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/authority/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/config/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mybatis/service/MyBatisEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/AutoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="206">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/entity/base/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/mapping/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3528">
+          <caret line="236" column="94" selection-start-line="236" selection-start-column="94" selection-end-line="236" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/Role.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/mapper/authority/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/base/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com.atc.auto/api/authority/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/atc/auto/core/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="111">
+          <caret line="432" column="24" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

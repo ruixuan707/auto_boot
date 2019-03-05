@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atc.auto.core.mapper.authority.EmployeeMapper">
+    <resultMap id="BaseResultMap" type="com.atc.auto.core.entity.authority.Employee">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP"/>
+        <result column="created_id" property="createdId" jdbcType="BIGINT"/>
+        <result column="created_name" property="createdName" jdbcType="VARCHAR"/>
+        <result column="is_delete" property="isDelete" jdbcType="INTEGER"/>
+        <result column="update_date" property="updateDate" jdbcType="TIMESTAMP"/>
+        <result column="updated_id" property="updatedId" jdbcType="BIGINT"/>
+        <result column="updated_name" property="updatedName" jdbcType="VARCHAR"/>
+        <result column="version" property="version" jdbcType="BIGINT"/>
+        <result column="check_password" property="checkPassword" jdbcType="VARCHAR"/>
+        <result column="institution_name" property="institutionName" jdbcType="VARCHAR"/>
+        <result column="ip_address" property="ipAddress" jdbcType="VARCHAR"/>
+        <result column="last_login_time" property="lastLoginTime" jdbcType="TIMESTAMP"/>
+        <result column="nick_name" property="nickName" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="post" property="post" jdbcType="VARCHAR"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="institution_id" property="institutionId" jdbcType="BIGINT"/>
+        <result column="position_id" property="positionId" jdbcType="BIGINT"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, create_date, created_id, created_name, is_delete, update_date, updated_id, updated_name, 
+    version, check_password, institution_name, ip_address, last_login_time, nick_name, 
+    password, post, username, institution_id, position_id
+  </sql>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from base_employee
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from base_employee
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" parameterType="com.atc.auto.core.entity.authority.Employee">
+    insert into base_employee (id, create_date, created_id, 
+      created_name, is_delete, update_date, 
+      updated_id, updated_name, version, 
+      check_password, institution_name, ip_address, 
+      last_login_time, nick_name, password, 
+      post, username, institution_id, 
+      position_id)
+    values (#{id,jdbcType=BIGINT}, #{createDate,jdbcType=TIMESTAMP}, #{createdId,jdbcType=BIGINT}, 
+      #{createdName,jdbcType=VARCHAR}, #{isDelete,jdbcType=INTEGER}, #{updateDate,jdbcType=TIMESTAMP}, 
+      #{updatedId,jdbcType=BIGINT}, #{updatedName,jdbcType=VARCHAR}, #{version,jdbcType=BIGINT}, 
+      #{checkPassword,jdbcType=VARCHAR}, #{institutionName,jdbcType=VARCHAR}, #{ipAddress,jdbcType=VARCHAR}, 
+      #{lastLoginTime,jdbcType=TIMESTAMP}, #{nickName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{post,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{institutionId,jdbcType=BIGINT}, 
+      #{positionId,jdbcType=BIGINT})
+  </insert>
+    <insert id="insertSelective" parameterType="com.atc.auto.core.entity.authority.Employee">
+        insert into base_employee
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="createDate != null">
+                create_date,
+            </if>
+            <if test="createdId != null">
+                created_id,
+            </if>
+            <if test="createdName != null">
+                created_name,
+            </if>
+            <if test="isDelete != null">
+                is_delete,
+            </if>
+            <if test="updateDate != null">
+                update_date,
+            </if>
+            <if test="updatedId != null">
+                updated_id,
+            </if>
+            <if test="updatedName != null">
+                updated_name,
+            </if>
+            <if test="version != null">
+                version,
+            </if>
+            <if test="checkPassword != null">
+                check_password,
+            </if>
+            <if test="institutionName != null">
+                institution_name,
+            </if>
+            <if test="ipAddress != null">
+                ip_address,
+            </if>
+            <if test="lastLoginTime != null">
+                last_login_time,
+            </if>
+            <if test="nickName != null">
+                nick_name,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="post != null">
+                post,
+            </if>
+            <if test="username != null">
+                username,
+            </if>
+            <if test="institutionId != null">
+                institution_id,
+            </if>
+            <if test="positionId != null">
+                position_id,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="createDate != null">
+                #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createdId != null">
+                #{createdId,jdbcType=BIGINT},
+            </if>
+            <if test="createdName != null">
+                #{createdName,jdbcType=VARCHAR},
+            </if>
+            <if test="isDelete != null">
+                #{isDelete,jdbcType=INTEGER},
+            </if>
+            <if test="updateDate != null">
+                #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updatedId != null">
+                #{updatedId,jdbcType=BIGINT},
+            </if>
+            <if test="updatedName != null">
+                #{updatedName,jdbcType=VARCHAR},
+            </if>
+            <if test="version != null">
+                #{version,jdbcType=BIGINT},
+            </if>
+            <if test="checkPassword != null">
+                #{checkPassword,jdbcType=VARCHAR},
+            </if>
+            <if test="institutionName != null">
+                #{institutionName,jdbcType=VARCHAR},
+            </if>
+            <if test="ipAddress != null">
+                #{ipAddress,jdbcType=VARCHAR},
+            </if>
+            <if test="lastLoginTime != null">
+                #{lastLoginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="nickName != null">
+                #{nickName,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="post != null">
+                #{post,jdbcType=VARCHAR},
+            </if>
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="institutionId != null">
+                #{institutionId,jdbcType=BIGINT},
+            </if>
+            <if test="positionId != null">
+                #{positionId,jdbcType=BIGINT},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.atc.auto.core.entity.authority.Employee">
+        update base_employee
+        <set>
+            <if test="createDate != null">
+                create_date = #{createDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createdId != null">
+                created_id = #{createdId,jdbcType=BIGINT},
+            </if>
+            <if test="createdName != null">
+                created_name = #{createdName,jdbcType=VARCHAR},
+            </if>
+            <if test="isDelete != null">
+                is_delete = #{isDelete,jdbcType=INTEGER},
+            </if>
+            <if test="updateDate != null">
+                update_date = #{updateDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updatedId != null">
+                updated_id = #{updatedId,jdbcType=BIGINT},
+            </if>
+            <if test="updatedName != null">
+                updated_name = #{updatedName,jdbcType=VARCHAR},
+            </if>
+            <if test="version != null">
+                version = #{version,jdbcType=BIGINT},
+            </if>
+            <if test="checkPassword != null">
+                check_password = #{checkPassword,jdbcType=VARCHAR},
+            </if>
+            <if test="institutionName != null">
+                institution_name = #{institutionName,jdbcType=VARCHAR},
+            </if>
+            <if test="ipAddress != null">
+                ip_address = #{ipAddress,jdbcType=VARCHAR},
+            </if>
+            <if test="lastLoginTime != null">
+                last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="nickName != null">
+                nick_name = #{nickName,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                password = #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="post != null">
+                post = #{post,jdbcType=VARCHAR},
+            </if>
+            <if test="username != null">
+                username = #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="institutionId != null">
+                institution_id = #{institutionId,jdbcType=BIGINT},
+            </if>
+            <if test="positionId != null">
+                position_id = #{positionId,jdbcType=BIGINT},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.atc.auto.core.entity.authority.Employee">
+    update base_employee
+    set create_date = #{createDate,jdbcType=TIMESTAMP},
+      created_id = #{createdId,jdbcType=BIGINT},
+      created_name = #{createdName,jdbcType=VARCHAR},
+      is_delete = #{isDelete,jdbcType=INTEGER},
+      update_date = #{updateDate,jdbcType=TIMESTAMP},
+      updated_id = #{updatedId,jdbcType=BIGINT},
+      updated_name = #{updatedName,jdbcType=VARCHAR},
+      version = #{version,jdbcType=BIGINT},
+      check_password = #{checkPassword,jdbcType=VARCHAR},
+      institution_name = #{institutionName,jdbcType=VARCHAR},
+      ip_address = #{ipAddress,jdbcType=VARCHAR},
+      last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+      nick_name = #{nickName,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      post = #{post,jdbcType=VARCHAR},
+      username = #{username,jdbcType=VARCHAR},
+      institution_id = #{institutionId,jdbcType=BIGINT},
+      position_id = #{positionId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
